@@ -11,8 +11,9 @@
     --orange-100: #FBED96;
     --orange-400: #F59E0B;
      
-    --green-100: #ABECD6;
-    --green-300: #34D399;
+    --green-100: #EFFFFA;
+    --green-300: #ABECD6;
+    --green-600: #34D399;
 }
 
 * { /* resentando css */

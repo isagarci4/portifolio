@@ -1,5 +1,5 @@
 .presentation {
-    background: linear-gradient(111deg, var(--orange-100) 0%, var(--green-100) 100%);
+    background: linear-gradient(111deg, var(--orange-100) 0%, var(--green-300) 100%);
     padding: 2.375rem 8.125rem;
     border-radius: 44px; 
     display: flex;
@@ -10,12 +10,17 @@
 }
 
 .avatar {
-    padding: 2.5rem 2rem;
-    background: var(--white); 
+    padding: 1.6rem;
+    background: var(--green-100); 
     border-radius: 124px; 
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+
+.avatar img {
+    height: 5rem;
+    width: auto;
 }
 
 .presentation h1 {
