@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem auto;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 0.75rem;
+}
+
+.logo p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
