@@ -1,7 +1,7 @@
 .presentation {
     background: linear-gradient(111deg, var(--orange-100) 0%, var(--green-300) 100%);
     padding: 2.375rem 8.125rem;
-    border-radius: 44px; 
+    border-radius: 2.5rem; 
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -19,7 +19,7 @@
 }
 
 .avatar img {
-    height: 5rem;
+    height: 80px;
     width: auto;
 }
 
@@ -49,21 +49,43 @@
 }
 
 .contactButton {
-    padding: 0.5rem 2.25rem;
+    padding: 8px 36px;
     background: var(--gray-900);
     color: var(--white);
     cursor: pointer;
-
+    font-size: 14px;
     border: 0;
     border-radius: 32px;
 }
 
+.contactButton:hover {
+    transition: 0.1s;
+    background: var(--gray-600);
+}
+
 .dowloadButton {
-    margin-left: 1rem;
+    margin-left: 16px;
     background: transparent;
     border: 0;
+    font-size: 14px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.dowloadButton:hover {
+    transition: 0.1s;
+    border-bottom: solid ;
+}
+
+@media (max-width: 768px) {
+
+    .presentation {
+        padding: 24px 30px;
+    }
+
+    .buttons button {
+        font-size: 14px;
+    }
 }
