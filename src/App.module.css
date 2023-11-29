@@ -4,11 +4,25 @@
     padding: 0 1rem;
 }
 
-.wrapper .title{
+.title{
     margin-top: 5rem;
+    margin-bottom: 3.75rem;
     font-size: 5.75rem;
     font-weight: 500;
     line-height: 5rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: flex-start;
+    gap: 21px;
+}
+
+@media (max-width: 1109px) {
+    .projects {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 768px) {

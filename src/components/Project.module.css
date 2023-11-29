@@ -1,0 +1,67 @@
+.project:hover {
+    transition: 0.1s;
+    border-top: solid;
+}
+
+header .projectName {
+    font-size: 32px;
+    margin-bottom: 1.25rem;
+}
+
+.technologies {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px; 
+}
+
+.technologies button {
+    font-size: 16px;
+    color: var(--white);
+    background: var(--blue-200);
+    border: 0;
+    border-radius: 32px;
+    font-weight: 400;
+
+    padding: 6px 16px;
+}
+
+.projectImage {
+    margin-top: 20px;
+    padding: 34px 10px 24px ;
+    width: 353px;
+    height: 270px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectImage img{
+    height: 213px;
+    width: 323px;
+    object-fit: cover;
+}
+
+.project footer {
+    margin-top: 1rem;
+    margin-left: 14px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px
+}
+
+.project footer a {
+    font-size: 16px;
+    text-decoration: 0;
+    color: var(--gray-900);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.project footer a:hover {
+    color: var(--gray-600);
+}
+
