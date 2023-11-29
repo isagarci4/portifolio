@@ -1,10 +1,10 @@
-import { ArrowRight, Hand } from 'phosphor-react'
-
-
+import { ArrowRight, Download, Hand } from 'phosphor-react'
 
 import avatar from '../assets/avatar.png'
 
 import styles from './Presentation.module.css'
+
+import curriculo from '../archives/curriculo.pdf'
 
 export function Presentation() {
     return(
@@ -16,10 +16,10 @@ export function Presentation() {
             <p>Desenvolvo <span>ideias</span> e ajudo a construir um mundo melhor através do software.</p>
             <div className={styles.buttons}>
                 <button className={styles.contactButton}>Contato</button>
-                <button className={styles.dowloadButton}>
+                <a href={curriculo} download="Curriculo" className={styles.dowloadButton}>
                     Download CV
                     <ArrowRight  size={20} weight='bold' />
-                </button>
+                </a>
             </div>
         </div>
     )

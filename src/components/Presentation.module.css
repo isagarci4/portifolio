@@ -65,10 +65,9 @@
 
 .dowloadButton {
     margin-left: 16px;
-    background: transparent;
-    border: 0;
+    text-decoration: none;
+    color: var(--gray-900);
     font-size: 14px;
-    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
