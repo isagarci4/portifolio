@@ -4,7 +4,7 @@ import avatar from '../assets/avatar.png'
 
 import styles from './Presentation.module.css'
 
-import curriculo from '../archives/curriculo.pdf'
+import curriculo from '../archives/Isadora_Garcia_CV.pdf'
 
 export function Presentation() {
     return(
