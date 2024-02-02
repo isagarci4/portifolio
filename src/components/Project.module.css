@@ -1,3 +1,7 @@
+.project {
+    border-top: solid transparent;
+}
+
 .project:hover {
     transition: 0.1s;
     border-top: solid;
